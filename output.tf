@@ -12,3 +12,4 @@ output "public_ip" {
   description = "Public IPs of created instances. "
   value = aws_instance.instance.public_ip
 }
+
